@@ -1,0 +1,82 @@
+.productCart{
+position: relative;
+// .modal{
+//     width: 100%;
+//     height: 100%;
+//    position: absolute;
+//    top: 50%;
+//    left: -10%;
+//    z-index: 5;
+// }
+.cart{  
+display: grid;
+grid-template-columns: auto auto auto auto;
+gap: 50px;
+align-content: center;
+.carts{
+position: relative;
+padding: 10px;
+.fa-heart{
+    font-size: 30px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+&:hover .image{
+    transform: scale(1.1);
+    transition: 500ms;
+}
+&:hover #myBtn{
+opacity: 1;
+transition: 500ms;
+transform: translateY(-30px);
+}
+#myBtn{
+    position: absolute;
+    left: 25%;
+    top: 82%;
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+    .image{
+        width: 270px;
+        height: 335px;
+            object-fit: contain;
+            
+    }
+    .detail{
+display: flex;
+justify-content: space-between;
+.close{
+    font-size: 35px;
+}
+    
+    .text{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        .name{
+            color: #999;
+            font-size: 15px;
+        }
+    }
+}
+}
+}
+}
+.openModal{
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    z-index: 5;
+}

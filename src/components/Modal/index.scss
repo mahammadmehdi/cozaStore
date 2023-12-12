@@ -1,0 +1,86 @@
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+
+    .openModal {
+        display: flex;
+        border: 1px solid black;
+        gap: 30px;
+        color: white;
+        position: fixed;
+        left: 100px;
+        top: 10%;
+        width: 90%;
+        height: 80%;
+        overflow: auto;
+        background-color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 1);
+        padding-top: 30px;
+        color: black;
+
+        .closeModal {
+            border: 1px solid black;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            z-index: 900;
+            cursor: pointer;
+        }
+
+        .image {
+            
+            img {
+                width: 700px;
+                height: 700px;
+            }
+        }
+
+        .detail {
+            display: flex;
+            flex-direction: column;
+            
+            justify-content: space-evenly;
+            align-items: start;
+            padding-bottom: 5%;
+            
+            .basket{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                .count{
+                    display: flex;
+                    .counter{
+                        width: 50px;
+                        height: 50px;
+                        border: 1px solid black;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: #f7f7f7;
+                        color: black;
+                    }
+                    button{
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+                .addCart{
+                    width: 150px;
+                    height: 30px;
+                    border: none;
+                    background-color: #717fe0;
+                    border-radius: 15px;
+                }
+            }
+            .sosialMedia{
+                display: flex;
+                gap: 10px;
+            }
+        }
+    }
+}

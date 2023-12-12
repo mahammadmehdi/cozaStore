@@ -1,0 +1,51 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 5%;
+}
+
+.products {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 7%;
+
+    .filterPage {
+        display: flex;
+        justify-content: space-between;
+
+        .page {
+            display: flex;
+            gap: 20px;
+            padding-top: 7px;
+        }
+
+        .button {
+            display: flex;
+            gap: 15px;
+
+            .filter {
+                border: 1px solid black;
+                border-radius: 3px;
+                width: 100px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .search {
+                border: 1px solid black;
+                width: 100px;
+                height: 50px;
+                border-radius: 3px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}

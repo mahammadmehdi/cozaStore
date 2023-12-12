@@ -1,0 +1,50 @@
+.basketpage{
+    .page{
+        .cards{
+            .card{
+                width: 350px;
+                height: 500px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                .image{
+                    .cardHover{
+                        display: flex;
+                        gap: 20px;
+                    }
+                    img{
+                        width: 300px;
+                        height: 300px;
+                    }
+                }
+                .countButton{
+                    display: flex;
+                    .btn{
+                        width: 30px;
+                        height: 30px;
+                        border: 1px solid black;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .price{
+                        width: 30px;
+                        height: 30px;
+                        border: 1px solid black;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .removeBtn{
+                        width: 150px;
+                        height: 30px;
+                        border: 1px solid black;
+                        display: flex;
+                        justify-content:center ;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}

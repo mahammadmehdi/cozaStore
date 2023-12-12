@@ -1,0 +1,30 @@
+.card{
+   border: 1px solid #e6e6e6;
+   width: 400px;
+   padding-left: 20px;
+   padding-top: 40px;
+   position: relative;
+  
+   
+    
+    .cardText{
+position: absolute;
+z-index: 2;
+font-size: 30px;
+left: 50px;
+    }
+    .season{
+        position: absolute;
+        z-index: 2;
+        font-size: 12px;
+
+    }
+    .cardImage{
+        img{
+            width: 368px;
+            height: 250px;
+            vertical-align: middle;
+            padding-left: 20px;
+        }
+    }
+}

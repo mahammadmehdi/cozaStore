@@ -1,0 +1,87 @@
+#navigation{
+    background-image: url("https://preview.colorlib.com/theme/cozastore/images/slide-01.jpg.webp");
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    
+    a{
+        color: black;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        width: 65%;
+        align-items: center;
+        height: 6vh;
+        
+        .leftNavbar{
+            display: flex;
+            justify-content: space-between;
+            width: 40%;
+            .headPage{
+                display: flex;
+                gap: 5px;
+                font-size: 25px;
+                .Coza{
+                    font-weight: bolder;
+                    
+                }
+            }
+            .pages{
+                padding-top: 7px;
+                .page{
+                    display: flex;
+                    gap: 20px;
+                    
+                   
+                }
+            }
+        }
+        .rightNavbar{
+            display: flex;
+            justify-content: baseline;
+            gap: 20px;
+            
+        }
+
+    }
+    .mainHead{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 200px;
+        position: absolute;
+        top: 40%;
+        left: 15%;
+        .btn{
+            background-color: #717fe0;
+            border-radius: 20px;
+            color: white;
+            width: 150px;
+            height: 40px;
+            border: none;
+        }
+        .category{
+            font-size: 30px;
+        }
+        .title{
+            font-size: 70px;
+        }
+    }
+    .rightSlider{
+        position: absolute;
+        right: 10px;
+        top: 49%;
+        font-size: 50px;
+        opacity: 0.5;
+    }
+    .leftSlider{
+        position: absolute;
+        left: 10px;
+        top: 49%;
+        font-size: 50px;
+        opacity: 0.5;
+    }
+    
+}
